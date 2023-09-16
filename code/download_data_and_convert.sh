@@ -16,5 +16,5 @@ tar -xzvf input/CytAssist_FFPE_Human_Breast_Cancer/analysis.tar.gz -C input/CytA
 tar -xzvf input/CytAssist_FFPE_Human_Breast_Cancer/spatial.tar.gz -C input/CytAssist_FFPE_Human_Breast_Cancer
 
 nextflow run haniffalab/webatlas-pipeline -r dev \
-      -params-file templates/examples/CytAssist_FFPE_Human_Breast_Cancer.yaml \
+      -params-file ~/.nextflow/assets/haniffalab/webatlas-pipeline/templates/examples/CytAssist_FFPE_Human_Breast_Cancer.yaml \
       -entry Full_pipeline
